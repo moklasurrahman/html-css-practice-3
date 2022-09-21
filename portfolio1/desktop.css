@@ -1,0 +1,358 @@
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+body{
+    background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+         /* nav-bar start */
+
+.navbar{
+    padding: auto;
+    width: 100%;
+    
+}
+.nav-logo img{
+    text-align: right;
+    width: 100px;
+}
+.nev-head h1{
+    text-align: center;
+    margin: 0px;
+    border: 3px solid white;
+    /* border-image: url(border.png) 50 round; */
+
+}
+.nav-manu{
+    flex-direction: row;
+    /* justify-content: flex-start;  */
+    margin-top: 0px;
+    padding: 0px;
+    text-align: left;
+
+}
+.nav-manu{
+    
+}
+.nav-manu a{
+    background-color: transparent;
+    border-radius: 0px;
+}
+   /* nav-bar end */
+
+   /* <!-- body-title start --> */
+   .body-cont{
+    position: relative;
+    padding: 140px 5px;
+    text-align: center;
+
+
+}
+.body-logo{
+ 
+}
+.body-logo img{
+        width: 150px;
+        position: absolute;
+        right: 60px;
+        top: 20px;
+        
+       
+}
+.body-logo img:hover{
+    
+    
+}
+.body-discp h1{
+ font-family: 'Kaushan Script', cursive;
+ font-weight: bolder;
+ font-size: 50px;
+ width: 100%;
+
+ 
+ 
+      
+}
+.body-discp p{
+   
+    margin: 0px auto 30px auto;  
+     font-size:20px;
+    width: 50%;
+
+}
+
+.body-logo2{
+  
+
+}
+.body-logo2 img{
+        width: 150px;
+        position: absolute;
+        left: 60px;
+        bottom: 10px;
+        
+}
+.body-logo2 img:hover{
+ transform: rotate(390deg);
+ 
+ 
+}
+.body-cont::after{
+ content: '';
+ display: table;
+ clear: both;
+}
+
+ /* about me profile disc */
+ .dotted-hr{
+   
+    width: 100%;
+     
+}
+ .aboutme-img{
+    
+}
+.aboutme-img img{
+  width: 250px;
+  border-radius: 5%;
+  border: 5px solid rgb(146, 56, 56) ;
+  opacity: 60%;
+  transition: 2s;
+  margin: 120px;
+  text-align: center;
+  
+}
+.aboutme-img img:hover{
+    opacity: 100%;
+    width:300px;
+}
+.about-disc p{
+    
+    text-align: left;
+    
+
+}
+
+/* protfolios design */
+.portfollios-hed h2 {
+    background-color: cadetblue;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-shadow: 5px 3px 6px black;
+}
+
+.portfolios-cont{
+    text-align: center;
+   
+   box-sizing: border-box;
+   background-image: unset;
+   background-repeat: no-repeat;
+   padding: 10px;
+}
+.design1{
+   text-align: center;
+}
+.design1 img{
+    width: 188px; 
+    transition: 2s;  
+    opacity: 80%;
+   
+}
+.design1 img:hover{
+   width:100%;
+   opacity: 100%;
+   
+}
+
+
+.design2{
+  text-align: center;
+  
+}
+.design2 img{
+    width: 169px;
+    transition: 2s; 
+    opacity: 80%;
+    
+   
+}
+.design2 img:hover{
+    width: 100%;
+    opacity: 100%;
+    
+  
+}
+
+
+.design3{
+  text-align: center;
+}
+.design3 img{
+    width: 200px;
+    transition: 2s; 
+    opacity: 80%;
+   
+}
+.design3 img:hover{
+   width: 90%;
+   opacity: 100%;
+}
+
+
+.design4{
+   text-align: center;
+}
+.design4 img{
+    width: 200px;
+    opacity: 80%;
+    transition: 2s;
+    
+}
+.design4 img:hover{
+    width: 90%;
+    opacity: 100%;
+}
+
+
+.design5{
+   text-align: center;
+}
+.design5 img{
+    width: 180px;
+    opacity: 80%;
+    transition: 2s;
+}
+.design5 img:hover{
+    
+    opacity: 100%;
+}
+
+
+.design6{
+   text-align: center;
+}
+.design6 img{
+    opacity: 80%;
+    transition: 2s;
+    
+    width: 200px;
+    
+}
+.design6 img:hover{
+    width: 90%;
+    opacity: 100%;
+
+}
+
+
+.portfolios-cont::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+       /* Professional Experience On Card START */
+
+.exp-head h1{
+    background-color: rgb(20, 89, 74);
+    text-align: center;
+    padding: 3px;
+}
+.Professional_Experience{
+    padding: 1% 1%;
+   
+    
+ }
+
+ /* Professional Experience On Card END */
+
+
+
+   /* overall-contract from here */
+
+
+   .overall-contract{
+   
+   
+   
+}
+
+.achiv{
+  
+  
+}
+.achive-title{
+   
+    
+
+}
+
+.achive-title h2{
+  
+
+
+}
+.achiv-discrip{
+    
+    
+  
+
+}
+
+
+}
+
+
+
+.form-aria{
+
+}
+
+
+
